@@ -38,7 +38,7 @@ Note 2: This Software and Installation Guide has been created for Academic resea
 		d. Authentication data required by Cloud Provider are Policy URL and Access Control Provider's Public Key, stored in a Database file described at proxy servers configuration file.
 		e. In case of a non-clean installation, Database file with the additional authentication data should be provided.
 		
-		Please read paper "Access control delegation for the Cloud" for more detailed information.
+		Please read N. Fotiou, A. Machas, G. C. Polyzos and G. Xylomenos, "Access control Delegation for the cloud," in Computer Communications Workshops (INFOCOM WKSHPS), 2014. for more detailed information.
 		
 	1.2 Database
 	
