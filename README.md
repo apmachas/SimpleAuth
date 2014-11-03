@@ -1,9 +1,9 @@
 An Auth Service for OpenStack Object Storage (Swift) as WSGI Middleware.
 
-	Access control delegation for the Cloud
+Access control delegation for the Cloud
 
 
-	Installation Guide created by Apostolis Machas, on Wen Feb 19 2014. 
+Installation Guide created by Apostolis Machas, on Wen Feb 19 2014. 
 
 **Note 1: Software and Installation Guide applies to the "default" Swift architecture consisting of a single Proxy node. 
 	  For more complex implementations, additional changes shall be made. 
