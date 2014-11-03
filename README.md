@@ -5,9 +5,9 @@ Access control delegation for the Cloud
 
 Installation Guide created by Apostolis Machas, on Wen Feb 19 2014. 
 
-**Note 1: Software and Installation Guide applies to the "default" Swift architecture consisting of a single Proxy node. 
-	  For more complex implementations, additional changes shall be made. 
-**Note 2: This Software and Installation Guide has been created for Academic research purposes, NOT FOR COMMERCIAL USE. 
+Note 1: Software and Installation Guide applies to the "default" Swift architecture consisting of a single Proxy node. For more complex implementations, additional changes shall be made. 
+	
+Note 2: This Software and Installation Guide has been created for Academic research purposes, NOT FOR COMMERCIAL USE. 
 	  Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 		
 		
