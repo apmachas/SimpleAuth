@@ -1,0 +1,24 @@
+[DEFAULT]
+cert_file = /etc/swift/cert.crt
+key_file = /etc/swift/cert.key
+bind_port = 443
+user = swift
+log_facility = LOG_LOCAL1
+
+[pipeline:main]
+pipeline = healthcheck cache simpleauth proxy-server
+
+[app:proxy-server]
+use = egg:swift#proxy
+allow_account_management = true
+account_autocreate = true
+
+[filter:simpleauth]
+use = egg:myauth#simpleauth
+DB_File = /home/usr/SimpleAuth.db
+
+[filter:healthcheck]
+use = egg:swift#healthcheck
+
+[filter:cache]
+use = egg:swift#memcache
